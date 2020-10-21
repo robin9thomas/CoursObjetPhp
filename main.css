@@ -1,14 +1,16 @@
-body{
-.effet{
-    margin:auto;
-    text-align:center;
-    font-family:"Trebuchet MS";
-    color:#fff;
-    font-size:150px;
-    text-transform:uppercase;
-    text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85,
-    -20px -20px 40px #ffae34, 20px -40px 50px #ec760c,
-    -20px -60px 60px #cd4606,
-    0 -80px 70px #973716, 10px -90px 80px #451b0e;
-    }
+div.style1
+{
+    text-shadow:0 0 5px #FFD100,0 0 50px #FFD100,0px 0px 10
+    px #FFD100, 0 0 150px #FFD100;color:#FFD100;
+    background-color:#262626;
+}
+
+h1.style1
+{
+    text-shadow:0 0 2px rgb(0, 0, 0),0 0 30px  rgb(0, 0, 0),0px 0px 5px  rgb(255, 239, 8), 0 0 150px rgb;color: rgb(0, 0, 0);
+    background-color:rgb(255, 239, 8)
+}
+
+nav ul{
+    
 }
