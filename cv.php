@@ -9,37 +9,10 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <div id="menu"><h1> Robin THOMAS</h1> </div>
-    <nav id="nav">
-        
-        <!--Menus-->
-    <div>  
-        <ul id="menu-deroulant">
-            <li><a href="index.html">MENU</a></li>
-            <li><a href="cv.html">Mon Cv</a></li>
-            <li><a href="CVEnglish.html">Mon CV in English</a>
-                    
-            </li>
-            <li><a href="">Hockey sur Glace</a>
-            <ul>
-            <li><a href="MonP.html">Mon parcour</a></li>
-            <li><a href="MonE.html">Mon equipe favorite</a></li>
-            <li><a href="https://www.eliteprospects.com/player/457755/robin-thomas">EliteProspect</a></li>
-        </ul>            
-        </li>
-        <li><a href="">Contacts</a>
-                <ul>
-                    <li><a href="#">Robin Thomas</a></li>
-                    <li><a href="#">Homme</a></li>
-                <li><a href="https://www.linkedin.com/in/robin-thomas-9679571b2">linkedin</a></li>
-                <li><a href="#">06 12 98 58 50</a></li>
-                <li><a href="#">robin.19thomas@gmail.com</a></li>
-                
-            </ul>            
-            </li>
-        </ul>
-    </div>     
-    </nav>
+<?php
+    include("menu.php");
+    Menu();
+?>
 
     <!--Contenu de mon cv-->
     
