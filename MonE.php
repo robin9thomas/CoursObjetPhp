@@ -23,7 +23,7 @@
     <img src="image/Logo_Penguins_de_Pittsburgh.png" alt="Impossible d'afficher l'image">
 </div>
 
-<!--Tableaaude présentation Pittsburgh Penguins-->
+<!--Tableau de présentation Pittsburgh Penguins-->
 <table>
    
     <thead>
@@ -45,7 +45,7 @@
       <tr>
         <th scope="row">Ligue</th>
         <td>NHL</td>
-       
+        
       </tr>
     </tbody>
 

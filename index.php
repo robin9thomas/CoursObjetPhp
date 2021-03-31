@@ -1,48 +1,20 @@
 <!DOCTYPE html>
-<?php  
-session_start();
-?>
-
 <html>
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Mon CV in English</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
-<body>
-<div id="menu"><h1> Robin THOMAS</h1> </div>
-    <nav id="nav">
-        
-        <!--Menus-->
-    <div>  
-        <ul id="menu-deroulant">
-            <li><a href="index.html">MENU</a></li>
-            <li><a href="cv.html">Mon Cv</a></li>
-            <li><a href="CVEnglish.html">Mon CV in English</a>
-                    
-            </li>
-            <li><a href="">Hockey sur Glace</a>
-            <ul>
-            <li><a href="MonP.html">Mon parcour</a></li>
-            <li><a href="MonE.html">Mon equipe favorite</a></li>
-            <li><a href="https://www.eliteprospects.com/player/457755/robin-thomas">EliteProspect</a></li>
-        </ul>            
-        </li>
-        <li><a href="">Contacts</a>
-                <ul>
-                <li><a href="https://www.linkedin.com/in/robin-thomas-9679571b2">linkedin</a></li>
-                <li><a href="#">06 12 98 58 50</a></li>
-                <li><a href="#">robin.19thomas@gmail.com</a></li>
-            </ul>            
-            </li>
-        
-       <li><a href="index.php">Jeu + -</a></li>
-    </ul> 
-    </div>     
-    </nav>
+
+
+<?php
+    include("menu.php");
+    Menu();
+?>
+
 <form action="" method="get" class="form-example">
   <div class="form-example">
     <label for="name">Entrez un chiffre: </label>
@@ -73,7 +45,7 @@ if(isset($_GET["nombre"]))
             echo '<div class="vert">'.$nombresForm.' Bien joué! </div>';
             $_SESSION["aleatoire"]= rand(1,100000);
             $_SESSION["essais"]++;
-            //si essay < record new recird
+            //si essay < record new record
             $_SESSION["essais"]=1;
         }
     
