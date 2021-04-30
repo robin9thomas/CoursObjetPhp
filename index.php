@@ -9,19 +9,11 @@
     <script src='main.js'></script>
 </head>
 
-<?php
-    include("menu.php");
-    Menu();
-?>
 
-<?php class Personnage{
-        private $_nom;
-
-        public function __construct($NewNom){
-            $this->_nom = $NewNom;
-        }
-    public function PresenteToi(){
-        echo 'Je suis ' .$this->_nom;
-    }
-    }
+<?php 
+include "Personnage.php";
+$toto=new Personnage();
+$Nom="Bonjour";
+$toto->setNom($Nom);
+echo $toto->presenteToi();
 ?>
